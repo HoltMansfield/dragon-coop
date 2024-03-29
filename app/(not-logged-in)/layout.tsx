@@ -30,13 +30,15 @@ export default function RootLayout({
 				<Menubar>
 					<MenubarMenu>
 						<MenubarTrigger>
-							<Image
-								src="/images/main-logo.png"
-								alt="Dragon Co-Op Logo"
-								width="80"
-								height="80"
-								className="rounded-full"
-							/>
+							<div className="pt-4">
+								<Image
+									src="/images/main-logo.png"
+									alt="Dragon Co-Op Logo"
+									width="80"
+									height="80"
+									className="rounded-full"
+								/>
+							</div>
 						</MenubarTrigger>
 						<MenubarContent>
 							<MenubarItem>
