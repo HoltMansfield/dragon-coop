@@ -29,6 +29,29 @@ export default function RootLayout({
 			<body className={inter.className}>
 				<Menubar>
 					<MenubarMenu>
+						<MenubarTrigger>
+							<div className="pt-4">
+								<Image
+									src="/images/main-logo.png"
+									alt="Dragon Co-Op Logo"
+									width="80"
+									height="80"
+									className="rounded-full"
+								/>
+							</div>
+						</MenubarTrigger>
+						<MenubarContent>
+							<MenubarItem>
+								New Tab <MenubarShortcut>⌘T</MenubarShortcut>
+							</MenubarItem>
+							<MenubarItem>New Window</MenubarItem>
+							<MenubarSeparator />
+							<MenubarItem>Share</MenubarItem>
+							<MenubarSeparator />
+							<MenubarItem>Print</MenubarItem>
+						</MenubarContent>
+					</MenubarMenu>
+					<MenubarMenu>
 						<MenubarTrigger>File</MenubarTrigger>
 						<MenubarContent>
 							<MenubarItem>
